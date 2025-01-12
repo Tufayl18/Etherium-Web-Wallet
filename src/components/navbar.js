@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="w-full bg-black py-4 px-10  flex items-center justify-between">
+    <nav className="w-full bg-black py-4 px-10 flex items-center justify-between">
       <div>
         <h1 className="text-white text-3xl font-bold ">CryptKey</h1>
       </div>
@@ -13,7 +13,7 @@ const Navbar = () => {
         </h1>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar
